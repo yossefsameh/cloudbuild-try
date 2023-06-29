@@ -11,5 +11,4 @@ steps:
     args:
     - 'push'
     - 'us-central1-docker.pkg.dev/joes-project-379413/hello-cloudbuild'
-options:
-logging: CLOUD_LOGGING_ONLY
+logging: 'NONE'
