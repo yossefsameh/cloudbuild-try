@@ -10,5 +10,5 @@ steps:
   - name: 'gcr.io/cloud-builders/docker'
     id: Push
     args:
-      'push'
-      'gcr.io/joes-project-379413/hello-cloudbuild'
+    'push'
+    'gcr.io/joes-project-379413/hello-cloudbuild'
