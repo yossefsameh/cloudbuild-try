@@ -1,9 +1,14 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/hello-cloudbuild', '.']
-  # push the container image to Container Registry
+    id: Build
+    args:
+    - 'build'
+    - '-t'
+    - 'gcr.io/joes-project-379413/hello-cloudbuild'
+    - '.'
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'gcr.io/$PROJECT_ID/hello-cloudbuild']
+    id: Push
+    args:
+      'push'
+      'gcr.io/joes-project-379413/hello-cloudbuild'
 - logging: 'NONE'
-
-
