@@ -1,5 +1,5 @@
 steps:
-  - logging: 'NONE'
+  logging: 'NONE'
   - name: 'gcr.io/cloud-builders/docker'
     id: Build
     args:
