@@ -4,11 +4,11 @@ steps:
     args:
     - 'build'
     - '-t'
-    - 'gcr.io/joes-project-379413/hello-cloudbuild'
+    - 'gcr.io/joes-project-379413/hello-cloudbuild:1'
     - '.'
   - name: 'gcr.io/cloud-builders/docker'
     id: Push
     args:
     - 'push'
-    - 'gcr.io/joes-project-379413/hello-cloudbuild'
+    - 'gcr.io/joes-project-379413/hello-cloudbuild:1'
 - logging: 'NONE'
