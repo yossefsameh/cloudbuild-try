@@ -12,5 +12,5 @@ steps:
     - 'push'
     - 'gcr.io/joes-project-379413/hello-cloudbuild:1'
 images:
-  - 'gcr.io/$PROJECT_ID/bq-to-ftp'
+  - 'gcr.io/joes-project-379413/hello-cloudbuild:1'
 - logging: 'NONE'
