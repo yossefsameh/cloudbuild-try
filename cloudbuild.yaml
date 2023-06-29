@@ -7,8 +7,8 @@ steps:
     - '-t'
     - 'gcr.io/joes-project-379413/hello-cloudbuild'
     - '.'
-  - name: 'gcr.io/cloud-builders/docker'
-    id: Push
-    args:
-    'push'
-    'gcr.io/joes-project-379413/hello-cloudbuild'
+  # - name: 'gcr.io/cloud-builders/docker'
+  #   id: Push
+  #   args:
+  #   'push'
+  #   'gcr.io/joes-project-379413/hello-cloudbuild'
