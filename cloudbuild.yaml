@@ -1,5 +1,4 @@
 steps:
-  logging: 'NONE'
   - name: 'gcr.io/cloud-builders/docker'
     id: Build
     args:
@@ -12,3 +11,5 @@ steps:
   #   args:
   #   'push'
   #   'gcr.io/joes-project-379413/hello-cloudbuild'
+options:
+  logging: 'NONE'
