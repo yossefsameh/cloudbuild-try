@@ -2,4 +2,4 @@
 #print("hellllllll")
 import os
 my_var = os.environ.get('_MYVR')
-print(_MYVR)
+print(my_var)
