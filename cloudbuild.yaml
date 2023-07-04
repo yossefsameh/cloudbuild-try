@@ -24,7 +24,7 @@ steps:
        # echo "$_TEST"
        # echo "$PROJECT_ID"
     env:  
-    - 'MYVR=$MYVR'
+    - 'MYVR=$_MYVR'
 options:
   logging: CLOUD_LOGGING_ONLY
   
