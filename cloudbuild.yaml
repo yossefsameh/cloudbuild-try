@@ -23,6 +23,8 @@ steps:
        python3 myf.py
        # echo "$_TEST"
        # echo "$PROJECT_ID"
+    env:  
+    - 'MYVR=$MYVR'
 options:
   logging: CLOUD_LOGGING_ONLY
   
