@@ -11,16 +11,16 @@ steps:
     args:
     - 'push'
     - 'gcr.io/joes-project-379413/hello-cloudbuild'
-  #  - name: 'gcr.io/joes-project-379413/hello-cloudbuild'
-  #   entrypoint: 'bash'
-  #   dir: '.'
-  #   args:
-  #    - '-c'
-  #    - |
-  #      pwd
-  #      ls
-  #      # echo "$_TEST"
-  #      # echo "$PROJECT_ID"
+   - name: 'gcr.io/joes-project-379413/hello-cloudbuild'
+    entrypoint: 'bash'
+    dir: '.'
+    args:
+     - '-c'
+     - |
+       pwd
+       ls
+       # echo "$_TEST"
+       # echo "$PROJECT_ID"
 options:
   logging: CLOUD_LOGGING_ONLY
   
