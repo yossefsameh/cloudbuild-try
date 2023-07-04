@@ -19,7 +19,7 @@ steps:
      - |
        pwd
        ls
-       echo "$_MYVR"
+       #echo "$_MYVR"
        python3 myf.py
        # echo "$_TEST"
        # echo "$PROJECT_ID"
