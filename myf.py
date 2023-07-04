@@ -1,2 +1,2 @@
-#print($_MYVR)
-print("hellllllll")
+print($$_MYVR)
+#print("hellllllll")
