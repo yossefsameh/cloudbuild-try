@@ -1,5 +1,5 @@
 #print($$_MYVR)
 #print("hellllllll")
 import os
-my_var = os.environ.get('_MYVR')
+my_var = os.environ.get('$_MYVR')
 print(my_var)
