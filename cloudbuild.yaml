@@ -11,7 +11,7 @@ steps:
   #   args:
   #   - 'push'
   #   - 'gcr.io/joes-project-379413/hello-cloudbuild'
-  - name: 'gcr.io/joes-project-379413/myimg:1'
+  - name: 'gcr.io/cloud-builders/kubectl'
     entrypoint: 'bash'
     dir: '.'
     args:
