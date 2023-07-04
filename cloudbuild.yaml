@@ -11,5 +11,4 @@ steps:
   #   args:
   #   'push'
   #   'gcr.io/joes-project-379413/hello-cloudbuild'
-options:
-  logging: CLOUD_LOGGING_ONLY
+logging: CLOUD_LOGGING_ONLY
