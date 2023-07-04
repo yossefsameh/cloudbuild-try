@@ -11,8 +11,8 @@ steps:
   #   args:
   #   - 'push'
   #   - 'gcr.io/joes-project-379413/hello-cloudbuild'
-  - name: 'gcr.io/joes-project-379413/hello-cloudbuild@sha256:e29a366f0adbfd2328bc0f509812c491899f2bc08f4b329cc38b1c011fc89949'
-    #entrypoint: 'bash'
+  - name: 'gcr.io/joes-project-379413/myimg'
+    entrypoint: 'bash'
     dir: '.'
     args:
      - '-c'
