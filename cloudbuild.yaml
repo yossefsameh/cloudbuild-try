@@ -12,4 +12,4 @@ steps:
   #   'push'
   #   'gcr.io/joes-project-379413/hello-cloudbuild'
 options:
-  logging: 'NONE'
+  logging: 'NON
