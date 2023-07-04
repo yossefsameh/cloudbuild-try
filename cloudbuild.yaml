@@ -19,7 +19,8 @@ steps:
      - |
        pwd
        ls
-       python3 myf.py
+       echo "$_MYVR"
+       #python3 myf.py
        # echo "$_TEST"
        # echo "$PROJECT_ID"
 options:
