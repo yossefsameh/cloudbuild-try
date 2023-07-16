@@ -27,4 +27,28 @@ steps:
     - 'MYVR=$_MYVR'
 options:
   logging: CLOUD_LOGGING_ONLY
-  
+
+
+
+# steps:
+#   - name: gcr.io/cloud-builders/gcloud
+#     args:
+#       - '-c'
+#       - >
+#         gcloud auth list 
+
+
+#         msg=$(gcloud pubsub subscriptions pull --auto-ack --format="value(data)"
+#         my-topic-sub | base64 -d)
+
+#         echo $msg 
+
+
+#         var1=$(echo $msg | sed -n 's/.*"VAR1": "\(.*\)",.*/\1/p')
+
+#         echo $var1
+#     dir: .
+#     entrypoint: bash
+# options:
+#   logging: CLOUD_LOGGING_ONLY
+
