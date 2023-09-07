@@ -20,11 +20,11 @@ steps:
        pwd
        ls
        #echo "$_MYVR"
-       python3 myf.py
+       #python3 myf.py
        # echo "$_TEST"
        # echo "$PROJECT_ID"
-    env:  
-    - 'MYVR=$_MYVR'
+    # env:  
+    # - 'MYVR=$_MYVR'
 options:
   logging: CLOUD_LOGGING_ONLY
 
